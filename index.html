@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <meta charset="UTF-8">
+<link rel="stylesheet" href="assets/css/style.min.css">
+
+<!-- Useful meta tags -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="">
+
+<title>Home</title>
+ </head>
+
+<body >
+    <div class="page">
+        <header class="header">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class = "nav__list">
+                        <li class ="nav__item"><a href="index.html" class = "nav__link">Home</a></li>
+                        <li class ="nav__item"><a href="" class = "nav__link has-subnav">News
+                        </a>
+                        <ul class = "subnav">
+                            <li><a class = "subnav__link" href="">Subnav</a></li>
+                            <li><a class = "subnav__link" href="">Subnav</a></li>
+                            <li><a class = "subnav__link" href="">Subnav</a></li>
+                        </ul>
+                        </li>
+                        <li class ="nav__item"><a href="text.html" class = "nav__link">About</a></li>
+                        <li class ="nav__item"><a href="text.html" class = "nav__link">Ad</a></li>
+                    </ul>
+                </nav>
+                <burger class = "burger" type="button" id= "sidebarToggle">
+                    <span>open menu</span>
+                </burger>
+            </div>
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class = "nav__list">
+                        <li class = "nav__item"> <a href="profile.html" class = "nav__link">Profile</a></li>
+                        <li class = "nav__item"> <a href="signin.html" class = "nav__link">Log-in</a></li>
+                    </ul>
+                </nav>
+                <form class = "search" action="search.html" method="get">
+                    <input class = "search__input"  type="text" placeholder="search">
+                </form>
+            </div>
+        </header>
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__header">
+                <img src="assets/images/sidebar.jpg" alt="">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+        
+                    <img class = "profile__avatar" src="https://place-hold.it/100x100" alt="">
+        
+                   <div class="profile__header">
+                    <div class="profile__name"> Your Name</div>
+                    <div class="profile__prof"> About your site </div>
+                   </div>
+                     <ul class="social">
+                        <li class="social__item">
+                            <a href="" class="social__link" target="_blank">
+                                <img src="assets/images/instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__link" target="_blank">
+                                <img src="assets/images/vk.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__link" target="_blank">
+                                <img src="assets/images/pinterest.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+        
+                    <div class="profile__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quibusdam deleniti perspiciatis nostrum necessitatibus consectetur at repellat ea laboriosam fugiat eaque, veniam maxime quia dolor vitae. Explicabo, rem delectus beatae.</p>
+                    </div>
+                </div><!-- profile -->
+        
+        
+        
+                <nav class="nav nav--mobile">
+                    <ul class = "nav__list">
+                        <li class ="nav__item"><a href="index.html" class = "nav__link">Home</a></li>
+                        <li class ="nav__item"><a href="#" class = "nav__link has-subnav">News
+                        </a>
+                            <ul class = "subnav">
+                                <li><a class = "subnav__link" href="#">Subnav</a></li>
+                                <li><a class = "subnav__link" href="#">Subnav</a></li>
+                                <li><a class = "subnav__link" href="#">Subnav</a></li>
+                            </ul>
+                        </li>
+                        <li class ="nav__item"><a href="text.html" class = "nav__link">About</a></li>
+                        <li class ="nav__item"><a href="text.html" class = "nav__link">Ad</a></li>
+                    </ul>
+                </nav>
+            </div><!-- content -->
+        
+        
+            <div class="sidebar__footer">
+                <a href="works.html" class="btn btn--red">Works</a>
+                <button class="btn btn--blue" type="button" data-modal = "contactModal">Contact</button>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+            <div class="stories">
+                <div class="stories__item" data-modal = "story-modal"> <img class="stories__preview" src="assets/images/story.jpg" alt="">
+                    <div class="stories__title">Stories title</div>
+                    <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+                </div>
+                <div class="stories__item"><img class="stories__preview" src="assets/images/story-1.jpg" alt="">
+                    <div class="stories__title">Stories title</div>
+                    <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+                </div>
+                <div class="stories__item"> <img class="stories__preview" src="assets/images/story-2.jpg" alt="">
+                    <div class="stories__title">Stories title</div>
+                    <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+                </div>
+                <div class="stories__item"><img class="stories__preview" src="assets/images/story-3.jpg" alt="">
+                    <div class="stories__title">Stories title</div>
+                    <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+                </div>
+            </div>
+            <!-- stories -->
+            <!-- Add post -->
+            <div class="add-post">
+                <form class="add-post__form" action="" method="post">
+                    <textarea class="add-post__form-textarea" name="post-text" placeholder="Write something"  data-autoresize></textarea>
+            
+                    <div class="add-post__form-actions">
+                        <label class ="add-post__file" for="add-post-file">
+                            <input type="file" id="add-post-file">
+                        </label>
+                        <button class ="add-post__send" type="submit"><img src="assets/images/send.svg" alt="send"></button>
+                    </div>
+                </form>
+            </div><!-- Add post -->
+            
+            
+            <div class="post">
+                <div class="post__content">
+                  <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, nobis animi! Temporibus aspernatur, facere, aliquam vitae harum, voluptate numquam autem ipsa voluptatum placeat dignissimos ducimus odit reiciendis accusantium ipsum rem.</p>
+                </div>
+            
+                <div class="post__footer">
+                   <ul class="post__data">
+                       <li class="post__data-item">
+                           <time class="post__time" datetime="2020-06-21">21.06.21</time>
+                       </li>
+                   </ul>
+                </div>
+            
+            </div> <!-- post -->
+            
+            <article class="post">
+             <div class="post__header post__header--preview">
+                <a href="">
+                 <img class = "post__preview" src="assets/images/post1.jpg" alt="">
+                </a>
+             </div>
+                <div class="post__content">
+                    <h2 class="post__title">
+                        <a href="post.html">Your text here</a>
+                    </h2>
+                    <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, nobis animi! Temporibus aspernatur, facere, aliquam vitae harum, voluptate numquam autem ipsa voluptatum placeat dignissimos ducimus odit reiciendis accusantium ipsum rem.
+                    </p>
+               </div>
+            
+               <div class="post__footer">
+                   <ul class="post__data">
+                       <li class="post__data-item">
+                           <time class="post__time" datetime="2020-06-21">21.06.21
+                           </time>
+                       </li>
+            
+                       <li class="post__data-item">
+                           <a href="">Categoty</a>
+                       </li>
+                   </ul>
+            
+                   <a href="post.html" class = "post__read">Read</a>
+                </div>
+            </article> <!-- post -->
+            
+            
+            <article class="post">
+             <div class="post__header post__geader--video">
+               <div class="embed">
+                <iframe src="https://www.youtube.com/embed/LXb3EKWsInQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+             </div>
+             <div class="post__content">
+                <h2 class="post__title">
+                    <a href="post.html">Your text here</a>
+                </h2>
+            
+             </div>
+            
+            <div class="post__footer">
+             <ul class="post__data">
+                <li class="post__data-item">
+                    <time class="post__time" datetime="2020-06-21">21.06.21</time>
+                </li>
+                <li class="post__data-item">
+                    <a href="">Categoty second</a>
+                </li>
+             </ul>
+            
+            <a href="" class = "post__read">Comment</a>
+            </div>
+            </article> <!-- post -->
+            
+            <article class="post">
+             <div class="post__header post__header--preview">
+                <a href="">
+                 <img class = "post__preview" src="assets/images/post1.jpg" alt="">
+                </a>
+             </div>
+                <div class="post__content">
+                    <h2 class="post__title">
+                        <a href="post.html">Your text here</a>
+                    </h2>
+                    <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, nobis animi! Temporibus aspernatur, facere, aliquam vitae harum, voluptate numquam autem ipsa voluptatum placeat dignissimos ducimus odit reiciendis accusantium ipsum rem.
+                    </p>
+               </div>
+            
+               <div class="post__footer">
+                   <ul class="post__data">
+                       <li class="post__data-item">
+                           <time class="post__time" datetime="2020-06-21">21.06.21
+                           </time>
+                       </li>
+            
+                       <li class="post__data-item">
+                           <a href="">Categoty</a>
+                       </li>
+                   </ul>
+            
+                   <a href="post.html" class = "post__read">Read</a>
+                </div>
+            </article> <!-- post -->
+            
+            
+            <!-- pagination -->
+            <ul class="pagination">
+                <li class = "pagination__item"><a class = "pagination__link" href="">&lt;</a></li>
+                <li class = "pagination__item"><a class = "pagination__link" href="">1</a></li>
+                <li class = "pagination__item"><a class = "pagination__link active" href="">2</a></li>
+                <li class = "pagination__item"><a class = "pagination__link" href="">3</a></li>
+                <li class = "pagination__item"><a class = "pagination__link" href="">&gt;</a></li>
+            
+            </ul>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+        </main>
+    </div>
+
+
+    <div class="modal" id ="contactModal">
+     <div class="modal__content modal__content--contact">
+        <button class = "modal__close" type="button">
+            <img src="assets/images/close.svg" alt="">
+        </button>
+    
+      <form action="" class="form form--auth">
+        <div class="form__group form__group--md">
+            <input type="text" placeholder="Enter your name" class="form__control">
+        </div>
+    
+        <div class="form__group form__group--md">
+            <input type="email" placeholder="Enter your mail" class="form__control">
+        </div>
+    
+        <div class="form__group form__group--md">
+            <textarea name="" id="" class="form__control form__control--textarea" placeholder="Enter a message"></textarea>
+        </div>
+     <div class="form__footer form__footer--center">
+       <div class="form__group form__group--md">
+        <button type="submit" class="btn btn--blue">Send</button>
+       </div>
+     </div>
+    </form>
+    
+       <ul class="modal__footer">
+           <li>
+            e-mail: <a href="mailto: infoabout@mail.com">infoabout@mail.com</a>
+            </li>
+            <li>
+            tel: <a href="tel: +88008888888">+8800-888-88-88</a>
+            </li>
+       </ul>
+        </div><!-- modal__content -->
+    </div>
+    <div class="modal">
+     <div class="modal__content">
+        <button class = "modal__close" type="button">
+            <img src="assets/images/close.svg" alt="">
+        </button>
+    
+                 <ul class="social">
+                    <li class="social__item">
+                        <a href="" class="social__link" target="_blank">
+                            <img src="assets/images/instagram.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link" target="_blank">
+                            <img src="assets/images/vk.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link" target="_blank">
+                            <img src="assets/images/pinterest.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+    
+        </div><!-- modal__content -->
+    </div>
+    <div class="modal" id = "story-modal">
+       <div class="modal__content modal__content--story">
+        <video src="" class = "modal__video" poster= "https://place-hold.it/420x580"></video>
+       </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
